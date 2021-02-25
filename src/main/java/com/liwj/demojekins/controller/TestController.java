@@ -17,6 +17,6 @@ public class TestController {
     @GetMapping("t2")
     public String t2(){
         System.out.println("构建成功");
-        return "t2";
+        return "构建成功";
     }
 }
